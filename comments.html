@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comments</title>
+    <link rel="stylesheet" href="comments.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <div>
+        <h1 style="position:relative; padding:5px;" > 
+            <a href="homepage.html"  >
+                 <img src="hobmine.png" height="130px" width="90px"  style="position:absolute;top:-2%;left:1%;" >
+                </a> </h1> 
+    </div>
+    <div class="comback"></div>
+    <div class="comment-box">
+        <h2>Comments</h2>
+        <div class="comment-area" v-for="comment in comments">
+            <div class="comment">
+                <div class="comment-header">
+                    <span class="user-name">{{ comment.name }}</span>
+                    <span class="user-date">{{ comment.date }}</span>
+                </div>
+                <div class="comment-text">{{ comment.comment }}</div>
+            </div>
+        </div>
+        <form class="comment-form" @submit.prevent="addComment">
+            <h3>Add Comment</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" v-model="newComment.name" required>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea id="comment" v-model="newComment.comment" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+            <div>
+        <button class="back"><a  href="aboutus.html">Back</a>
+    </button></div>
+        </form>
+    </div>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
+    <script src="comments.js"></script>
+    
+</body>
+</html>
+    

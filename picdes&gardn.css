@@ -1,0 +1,258 @@
+.gardone{
+    top: 0px;
+    margin: 0px;
+    
+height: 100vh;
+width: 100%;
+background-image:linear-gradient(#7B2869,#9D3C72,#C85C8E,#FFBABA);position: top ; 
+top: auto;
+
+}
+
+h1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    
+
+    font-size:70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color:#FFBABA;
+}
+
+.gardtwo{
+    top: 0%;
+    margin: 0%;
+   margin-top: 10px;
+   
+    
+    background-image:linear-gradient(#FFBABA,#C85C8E) ;
+  
+    width: 100%;
+    bottom: auto;
+
+}
+ .img1{
+
+    top:-5%;
+    left:35%;
+    height: 300px;
+}
+.img2{
+
+    top:-5%;
+    left:0%;
+    height: 300px;
+}
+.img3{
+
+    top: -5%;
+    left:0%;
+    height: 300px;
+}
+.gardtwo p{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.picdesone{
+    top: 0px;
+    margin: 0px;
+    
+height: 100vh;
+width: 100%;
+background-image:linear-gradient(#7a3842,#cb6362,#db9394,#ffffff,#408ca4,#335a79,#061d2b);position: top ; 
+top: auto;
+}
+.picdesone h1{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    
+
+    font-size:70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: #ffffff;
+                
+}
+
+.hobmine{
+    position:relative;
+     top:-25%;
+     left:0%;
+     height: 150px;
+    width: 110px;
+}
+.logo{
+    position: absolute;
+    top: -30%;
+    left: 25%;
+    height: 70%;
+    width: 50%;
+}
+
+.instagram {
+    height: 20%;
+        width: 15%;
+        background-image: linear-gradient(rgba(219, 147, 148, .6),rgba(255, 255, 255, .6));
+        
+        position:absolute;
+        
+        
+         top: 60%;
+         left: 10%;
+        
+            color:#ffffff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:larger;
+        padding: 30px;
+        text-align: center;
+        border-radius: 100px;
+        border-color: azure;
+        border-width: 10px;
+       
+
+}
+
+.insta{
+    position: absolute;
+    left: 22%;
+    top: 5%;
+    width:60%;
+    height: 85%;
+
+}
+
+
+.fiverr {
+    height: 20%;
+        width: 15%;
+        background-image: linear-gradient(rgba(219, 147, 148, .6),rgba(255, 255, 255, .6));
+        
+        position:absolute;
+       
+        
+         top: 60%;
+         left: 40%;
+        
+            color: #ffffff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:larger;
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        border-color: azure;
+        border-width: 10px;
+       z-index: 10px;
+
+}
+.five{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    width:60%;
+    height: 65%;
+}
+
+.pinterest {
+    height: 20%;
+        width: 15%;
+        background-image: linear-gradient(rgba(219, 147, 148, .6),rgba(255, 255, 255, .6));
+        
+        position:absolute;
+        
+        
+         top: 60%;
+         left: 70%;
+        
+            color: #ffffff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:larger;
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        border-color: azure;
+        border-width: 10px;
+       z-index: 10px;
+
+}
+.pint{
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    width:50%;
+    height: 65%;
+}
+img
+{
+    height: 30%;
+    width: 30%;
+    position: relative;
+    left: 35%;
+   padding-top: 10%;
+    
+   
+}
+
+.picdestwo{
+    background-image:linear-gradient(#cb6362,#db9394,#408ca4,#335a79) ;
+    height: 500px;
+    width: 100%;
+    bottom: auto;
+
+}
+
+.picdestwo p {
+    position: relative;
+    top: 5%;
+    margin:0%;
+    color: white;
+    line-height: 40px;
+    
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.stick .insta {
+    position:fixed;
+   left: 92%;
+    top:10%;
+    width:100px;
+    height: 100px;
+}
+
+
+.stick .five{
+    position:fixed;
+    left:92%;
+    top:30%;
+   
+    width:95px;
+    height: 90px;
+  
+}
+   
+
+.stick .pint{
+    position:fixed;
+   left: 92%;
+top:50%;
+   
+    width:90px;
+    height: 90px;
+   
+}
